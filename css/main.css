@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	display: block;
+}
+
+
+header {
+	height: 125px;
+	background-color: skyblue;
+}
+
+
+
+header h1 {
+background: url('../images/vball.png') no-repeat; 
+text-indent: 100%;
+overflow: hidden;
+height: 100px;
+width: 170px;
+float: left;
+background-size: 100px 100px;
+}
+
+
+.time {
+	float: left;
+	height: 100px;
+	width: 170px;
+	text-align: center;
+	margin:10px;
+}
+
+.menu ul {
+	float:right;
+	list-style: none;
+	margin: 35px 15px;
+	width: 750px;
+	font-size: 20px;
+}
+
+.menu li {
+	display: inline;
+	padding: 15px 75px 10px;
+}
+
+
+
+.slider {
+	position: relative;
+	width: 100%;
+	height: 750px;
+	border-bottom: 1px solid black;
+}
+
+.slide {
+	background: transparent  url('../images/box-gradient.png') center	center	no-repeat;
+	background-size: cover;
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 150%;
+}
+
+.slide {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.active-slide {
+	display: block;
+}
+
+.slide-copy h1 {
+	font-size: 40px;
+	font-weight: 200px;
+	margin-top: 100px;
+	margin-left: 0px;
+}
+
+.slide-copy p {
+	color: black;
+	font-family: cursive;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.slide-copy-1 h1{
+	color: #33cccc;
+	font-size: 45px;
+	margin-top: 100px;
+	margin-left: 10px;
+}
+
+.slide-copy-1 p {
+	color: #33cccc;
+	font-size: 22px;
+	font-family: cursive;
+	margin-top: 25px;
+	margin-left: 10px;
+	width: 460px;
+}
+
+/* slide 1*/
+.slide-bg {
+ float: left;
+ background: url('../images/sunset.jpg') center no-repeat;
+ height: 750px;
+}
+
+/* slide 2*/
+.slide-image {
+	display: inline;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.imageList li{
+	list-style: none;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 300px;
+}
+
+.imageList img {
+	height: 300px;
+	width: 300px;
+	text-align: right;
+}
+
+/*dot sliders*/
+.slider-nav {
+	text-align: center;
+}
+
+.slider-dot {
+	list-style: none;
+	display: inline-block;
+}
+
+.slider-dot li {
+	display: inline;
+	padding: 10px;
+	color: #bbbcbc;
+	font-size: 30px;
+}
+
