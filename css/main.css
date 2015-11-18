@@ -109,27 +109,50 @@ background-size: 100px 100px;
 	width: 460px;
 }
 
+/* slide 1*/
 .slide-bg {
  float: left;
  background: url('../images/sunset.jpg') center no-repeat;
  height: 750px;
 }
 
-.imageList {
-	list-style: none;
+/* slide 2*/
+.slide-image {
+	display: inline;
 	padding-bottom: 10px;
-	padding-left: 0px;
+	padding-left: 10px;
 	padding-top: 10px;
 }
 
 .imageList li{
+	list-style: none;
 	float: right;
 	margin-bottom: 10px;
 	margin-right: 10px;
+	margin-left: 10px;
+	width: 300px;
 }
 
 .imageList img {
-	height: 200px;
+	height: 300px;
+	width: 300px;
+	text-align: right;
+}
+
+/*dot sliders*/
+.slider-nav {
+	text-align: center;
+}
+
+.slider-dot {
+	list-style: none;
+	display: inline-block;
+}
+
+.slider-dot li {
 	display: inline;
+	padding: 10px;
+	color: #bbbcbc;
+	font-size: 30px;
 }
 
