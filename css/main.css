@@ -9,8 +9,6 @@ header {
 	background-color: skyblue;
 }
 
-
-
 header h1 {
 background: url('../images/vball.png') no-repeat; 
 text-indent: 100%;
@@ -21,19 +19,35 @@ float: left;
 background-size: 100px 100px;
 }
 
-
+/*digital clock*/
 .time {
 	float: left;
-	height: 100px;
-	width: 170px;
+	font-size: 24px;
+	font-family: cursive;
+	height: 10px;
+	width: 150px;
 	text-align: center;
-	margin:10px;
+	margin-top: 10px;
+}
+
+
+#clock {
+	float: left;
+	width: 150px;
+	height: 60px;
+	margin-left: -150px;
+	margin-top: 40px;
+	font: 24px bold;
+	border: 2px solid black;
+	background: purple;
+	border-radius: 10px;
+	padding: 15px;
 }
 
 .menu ul {
 	float:right;
 	list-style: none;
-	margin: 35px 15px;
+	margin: 55px 15px;
 	width: 750px;
 	font-size: 20px;
 }
@@ -44,7 +58,7 @@ background-size: 100px 100px;
 }
 
 
-
+/* slider for the home page*/
 .slider {
 	position: relative;
 	width: 100%;
@@ -148,8 +162,18 @@ background-size: 100px 100px;
 
 .slider-dot li {
 	display: inline;
+	margin-left: 3px;
+	margin-right: 3px;
 	padding: 10px;
 	color: #bbbcbc;
 	font-size: 30px;
 }
+
+
+li:hover {	
+	color:green;
+	cursor: pointer;
+	cursor: hand;
+}
+
 
