@@ -3,6 +3,7 @@
 <head>
 	<meta charset='utf-8'>
 	<title>Monsoon</title>
+	<meta name='viewport' content='width=device-width, initial-scale-1'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 </head>
@@ -31,7 +32,7 @@
 		</div>
 	</header>
 <div class='slider'>
-	<div class='slide slide1 slide-bg active-slide'>
+	<div class='slide active-slide slide-bg' id='slide1'>
 		<div class='container'>
 			<div class='row'>
 					<div class='slide-copy-1 col-xs-12'>
@@ -41,7 +42,7 @@
 			</div>
 		</div>
 	</div>
-	<div class='slide slide2'>
+	<div class='slide' id='slide2'>
 		<div class='container'>
 			<div class='row'>
 				<div class='slide-copy col-xs-5'>
@@ -59,7 +60,7 @@
 			</div>
 		</div>
 	</div>
-	<div class='slide slide3'>
+	<div class='slide' id='slide3'>
 		<div class='container'>
 			<div class='row'>
 				<div class='slide-copy col-xs-5'>
@@ -73,7 +74,7 @@
 			</div>
 		</div>
 	</div>
-	<div class='slide slide4'>
+	<div class='slide' id='slide4'>
 		<div class='container'>
 			<div class='row'>
 				<div class='slide-copy col-xs-5'>
@@ -85,17 +86,19 @@
 		</div>
 	</div>
 </div>
-	<div class='container slider-nav'>
+	<div class='slider-nav'>
+		<a href='#' class='arrow-prev'><img src="images/arrow-prev.png"></a>
 			<ul class='slider-dot'>
-				<li class='dot1 active-dot'>&bull;</li>
-				<li class='dot2'>&bull;</li>
-				<li class='dot3'>&bull;</li>
-				<li class='dot4'>&bull;</li>
+				<li class='dot dot1 active-dot'>&bull;</li>
+				<li class='dot dot2'>&bull;</li>
+				<li class='dot dot3'>&bull;</li>
+				<li class='dot dot4'>&bull;</li>
 			</ul>
+		<a href="#" class='arrow-next'><img src="images/arrow-next.png"></a>
 	</div>
 
-
 <script type="text/javascript" src='js/jquery-1.11.3.min.js'></script>
+<script type="text/javascript" src='js/bootstrap.min.js'></script>
 <script type="text/javascript" src='js/vbjs.js'></script>
 </body>
 </html>
